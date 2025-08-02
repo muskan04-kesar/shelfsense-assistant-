@@ -2,7 +2,7 @@
 ShelfSense is a conversational book recommendation assistant built using IBM watsonx Assistant. It lets users discover both the latest new releases and timeless classics, offering metadata-rich summaries, context, and tailored suggestions. Leveraging watsonx’s advanced NLU and its integration with knowledge sources
 # 📚 ShelfSense — Book Recommendation Assistant
 
-Welcome to **ShelfSense**, your smart and personalized book recommendation assistant — hosted on  [muskan04-kesar.github.io](https://muskan04-kesar.github.io)!
+Welcome to **ShelfSense**, your smart and personalized book recommendation assistant — hosted on  [muskan04-kesar.github.io]( https://muskan04-kesar.github.io/shelfsense-assistant-/)!
 
 ## 🚀 Overview
 
@@ -24,7 +24,7 @@ Welcome to **ShelfSense**, your smart and personalized book recommendation assis
 
 ## 🌐 Live Demo
 
-🔗 [Visit ShelfSense]  (https://muskan04-kesar.github.io).
+🔗 [Visit ShelfSense]  ( https://muskan04-kesar.github.io/shelfsense-assistant-/).
 
 ## 🛠️ Technologies Used
 
@@ -35,7 +35,7 @@ Welcome to **ShelfSense**, your smart and personalized book recommendation assis
 
 ## 🧩 How to Use
 
-1. Open the [website] (https://muskan04-kesar.github.io).
+1. Open the [website] ( https://muskan04-kesar.github.io/shelfsense-assistant-/).
 2. Explore book suggestions based on your interests.
 3. Interact with the embedded Watson Assistant chatbot for dynamic recommendations.
 
