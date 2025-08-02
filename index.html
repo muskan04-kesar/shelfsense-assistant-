@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShelfSense - Your Book Recommendation Assistant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f5fa;
+      color: #333;
+    }
+    header {
+      background-color: #4b3f72;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .tagline {
+      font-size: 1.2rem;
+      font-weight: 300;
+      margin-top: 0.5rem;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .feature {
+      background-color: white;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+    .feature h2 {
+      margin-top: 0;
+      color: #4b3f72;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ShelfSense</h1>
+    <div class="tagline">Discover books you'll love, powered by smart recommendations</div>
+  </header>
+  <main>
+    <div class="feature">
+      <h2>📚 Personalized Book Recommendations</h2>
+      <p>Tell us your favorite genres, authors, or even your current mood, and ShelfSense will find books that fit you perfectly.</p>
+    </div>
+    <div class="feature">
+      <h2>🔍 Search by Genre, Mood, or Topic</h2>
+      <p>Looking for something light and funny, or maybe dark and mysterious? We've got you covered.</p>
+    </div>
+    <div class="feature">
+      <h2>📂 Save and Track Your Reads</h2>
+      <p>Build your personal reading list and keep track of books you've read or plan to read.</p>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 ShelfSense. All rights reserved.
+  </footer>
+
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "b44f03dd-d074-4dd2-8f50-6ab0bf42fbdb", // The ID of this integration.
+      region: "eu-de", // The region your integration is hosted in.
+      serviceInstanceID: "1be6f926-a267-47c4-889a-d86f3f0e719a", // The ID of your service instance.
+      onLoad: async (instance) => { await instance.render(); }
+    };
+    setTimeout(function(){
+      const t = document.createElement('script');
+      t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+</body>
+</html>
